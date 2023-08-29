@@ -1,0 +1,141 @@
+html, body{
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo{
+    width: 68px;
+    position: absolute;
+    margin-left: 5%;
+}
+
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+
+}
+#topo{
+    float: left;
+    padding: 20px 10px 16px 10px;
+}
+#topo:hover{
+    background-color:  rgb(64, 124, 60);
+}
+
+
+#imagem_fundo{
+    background: url("colagem-de-conceito-de-mudanca-climatica.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color:  rgb(64, 124, 60);
+    padding-top: 5%;
+    font-size: 70px;
+}
+#subtitulo{
+    color: #914800;
+    padding-top: 0%;
+    font-size: 50px;
+}
+#botao{
+    color: white;
+    background-color: blue;
+    border: 2px green solid;
+    padding: 10px 20px;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.secao1{
+    padding: 20px ;
+    margin: 0 auto;
+    width: 500px;
+}
+p, ul{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+#secao1{
+    padding: 3% 5%;
+    font-size: 20px;
+    text-align: justify;
+    background-color: #f7f7f7;
+}
+#secao2{
+    padding: 3% 5%;
+    font-size: 20px;
+    text-align: justify;
+}
+#secao3{
+    padding: 3% 5%;
+    font-size: 20px;
+    text-align: justify;
+}
+#secao4{
+    padding: 3% 5%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.img_qrcode{
+    width: 40%;
+    text-align: center;
+}
+.img_enchentes{
+    width: 70%;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.col4{
+    float: left;
+    position: relative;
+    padding: 5% 5%;
+    width: 40%;
+}
+.site{
+    font-size: 15px;
+}
+footer{
+    background-color: rgb(64, 124, 60);
+    float: left;
+    margin: 0 auto;
+    line-height: normal;
+}
+@media all and (max-width: 768px) {
+    #menu{
+        visibility: hidden;
+    }
+    .col4{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+}
+
+
+    
